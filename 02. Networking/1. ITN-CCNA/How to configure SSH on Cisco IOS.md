@@ -220,46 +220,59 @@ Click `PC0` -> Go to `Desktop` -> click on `Command Promt`:
 
 ---
 
+### SSH to the Switch
+````
+ssh -l k4n0ng 192.168.1.2
+````
+<img width="309" height="153" alt="image" src="https://github.com/user-attachments/assets/d995c724-3f7e-4942-b194-6b166b4ff857" />
+
+In this my Username is: `k4n0ng` and password is `k4n0ng`.
+````
+enable
+````
+<img width="331" height="186" alt="image" src="https://github.com/user-attachments/assets/913a7e82-eb0d-468f-bbd4-d77343f9d1a8" />
+
+In this my password is `k4n0ng`.
+
+Now we finished. 
 
 
+---
+
+### Full SSH Configuration 
+````
+enable
+configure terminal
+
+hostname SW1
+
+interface vlan 1
+ ip address 192.168.1.2 255.255.255.0
+ no shutdown
+exit
+
+ip default-gateway 192.168.1.1
+
+username k4n0ng secret k4n0ng
+
+enable secret Cisco123
+
+ip domain-name k4n0ng.com
+
+crypto key generate rsa
+1024
+
+ip ssh version 2
+
+line vty 0 4
+ login local
+ transport input ssh
+exit
+
+end
+
+copy running-config startup-config
+````
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
