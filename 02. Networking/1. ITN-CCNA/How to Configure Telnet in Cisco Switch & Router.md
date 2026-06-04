@@ -6,8 +6,8 @@
 
 ## Start:
 
+<img width="803" height="445" alt="image" src="https://github.com/user-attachments/assets/29606d1e-af8f-4dc7-a43b-60bfe9413147" />
 
-<img width="986" height="675" alt="image" src="https://github.com/user-attachments/assets/32e23f0f-f894-4853-9014-0033903ce99f" />
 
 <img width="971" height="922" alt="image" src="https://github.com/user-attachments/assets/8e48ce22-be69-4b9b-855b-eeb7af596084" />
 
