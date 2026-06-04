@@ -194,24 +194,31 @@ Now we finished all.
 ````
 show ip ssh
 ````
+<img width="476" height="58" alt="image" src="https://github.com/user-attachments/assets/212fb68e-8c11-4cfd-b48e-3ee4e02e70fa" />
 
 
 #### Check User
 ````
 show running-config | include username
 ````
+<img width="539" height="74" alt="image" src="https://github.com/user-attachments/assets/f98d55b5-ef0a-45ee-864e-5f4f361a933c" />
 
 
 #### Check VTY
 ````
 show running-config | section vty
 ````
+<img width="370" height="115" alt="image" src="https://github.com/user-attachments/assets/4329d7fb-7c50-474b-bdfe-bdbcc29e48f8" />
+
+---
+
+### test connection:
+Click `PC0` -> Go to `Desktop` -> click on `Command Promt`:
+<img width="704" height="665" alt="image" src="https://github.com/user-attachments/assets/992ab350-e84b-4e47-9eef-7fe24b2517b7" />
 
 
 
-
-
-
+---
 
 
 
