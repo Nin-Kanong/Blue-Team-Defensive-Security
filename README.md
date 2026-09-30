@@ -40,6 +40,11 @@
 
 Welcome to my **Blue Team Defensive Security** learning repository! This is my comprehensive journey into the world of **cyber defense, security operations, and incident response**.
 
+
+#### Top Content:
+
+[Malware Analysis](https://github.com/Nin-Kanong/Blue-Team-Defensive-Security/tree/main/12.%20Malware_Analysis/4.%20Malware_Lab)
+
 ### 🎯 What is Blue Team?
 
 **Blue Team** refers to the defensive side of cybersecurity — the professionals who:
