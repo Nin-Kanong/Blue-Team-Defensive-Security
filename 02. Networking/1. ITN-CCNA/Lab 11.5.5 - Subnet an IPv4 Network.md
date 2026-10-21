@@ -1,4 +1,4 @@
-<img width="873" height="885" alt="image" src="https://github.com/user-attachments/assets/acd4da44-9e08-470b-8af6-34171b4b7558" /><h1> Lab11.5.5 - Subnet an IPv4 Network </h1>
+<h1> Lab11.5.5 - Subnet an IPv4 Network </h1>
 
 
 ---
